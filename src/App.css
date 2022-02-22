@@ -114,14 +114,14 @@ h6{
   text-align: justify;
   padding: 6px;
 }
-.add-employee{
+.add-employee ,.edit-employee{
   display:flex;
   flex-direction: column;
   align-items: center;
 }
-.MuiTextField-root {
+.MuiTextField-root  {
   width: 20em;
 }
-.add-content{
+.add-content, .edit-content{
   margin-top: 5em;
 }
