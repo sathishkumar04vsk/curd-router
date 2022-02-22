@@ -15,14 +15,14 @@
   .nav-link{
     gap:0px;
   }
-  .li{
-    font-size: 10px;
+  span{
+    font-size: 5px;
   }
   .about-section{
     height: 100%;
   }
 }
-li {
+span {
   list-style-type: none;
   font-size: 20px;
 }
@@ -124,4 +124,31 @@ h6{
 }
 .add-content, .edit-content{
   margin-top: 5em;
+}
+.login-container{
+  width:400px;
+  height: 440px;
+  background-color: rgb(164,183,218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-head{
+  text-align:center;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-button{
+  margin: 2.5em !important;
+  background-color: rgb(14, 14, 66) !important;
+  color: #ffffff !important;
+  border-radius: 25px !important;
+}
+.login-page{
+  display: flex;
+  justify-content: center;
+  padding: 4em;
 }

@@ -8,6 +8,8 @@ import { About } from "./components/About";
 import { Home } from "./components/Home";
 import { Employees } from "./components/Employees";
 import { AddEmployee } from "./components/AddEmployee";
+import { EditEmployee } from "./components/EditEmployee";
+import { Login } from "./components/Login";
 
 function App() {
   const employees = [
@@ -82,8 +84,14 @@ function App() {
           <Route path="/employee/create" exact>
             <AddEmployee />
           </Route>
+          <Route path="/employee/edit" exact>
+            <EditEmployee />
+          </Route>
           <Route path="/about" exact>
             <About />
+          </Route>
+          <Route path="/login" exact>
+            <Login />
           </Route>
           <Route path="**" exact></Route>
         </Switch>
