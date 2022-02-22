@@ -4,7 +4,7 @@ import { Card } from "@mui/material";
 export const About = () => {
   const enviroment = [
     {
-      workspace: "Our Cabin",
+      workspace: "Work Space",
       img:"https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       info: "A workspace is (often) a file or directory that allows a user to gather various source code files and resources and work with them as a cohesive unit.[1] Often these files and resources represent the complete state of an integrated development environment (IDE) at a given time, a snapshot.",
     },
@@ -36,6 +36,7 @@ export const About = () => {
         </Card>
         ))}
       </section>
+
     </div>
   );
 };

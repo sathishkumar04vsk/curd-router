@@ -4,11 +4,11 @@ import IconButton from "@mui/material/IconButton";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-export const Employes = ({ employes }) => {
+export const Employees = ({ employees }) => {
 
   return (
     <div className="cards">
-      {employes.map(({ name, profile, employes_id, working_years, department, job_title }) => (
+      {employees.map(({ name, profile, employee_id, working_years, department, job_title }) => (
         <Card sx={{ maxHeight: 200, maxWidth: 400 }}>
           <div className="profile-card">
             <CardMedia
@@ -19,7 +19,7 @@ export const Employes = ({ employes }) => {
             ></CardMedia>
             <div className="em-details">
               <h6>Name: {name}</h6>
-              <h6>Employe Id: {employes_id}</h6>
+              <h6>Employe Id: {employee_id}</h6>
               <h6>Working Years: {working_years}</h6>
               <h6>Department: {department}</h6>
               <h6>Job Title: {job_title}</h6>
